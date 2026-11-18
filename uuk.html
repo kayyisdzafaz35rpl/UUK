@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Teknologi Saya</title>
+    <link rel="stylesheet" href="uuk.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Teknologi</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Mengenal Perkembangan Kecerdasan Buatan</h2>
+            <img src="web/yis.jpeg" alt="Gambar artikel" class="gambar-artikel">
+            <p>Kehadiran kecerdasan buatan kini sangat dekat dengan aktivitas sehari-hari, mulai dari fitur asisten digital, algoritma rekomendasi video, sampai penerjemah bahasa instan. Dengan mempelajari data berskala besar, teknologi ini mampu memetakan pola dan mempermudah manusia dalam mengambil keputusan.</p>
+            <p>Di balik segala manfaatnya, kita tetap dituntut untuk bijak saat memakai kecerdasan buatan. Pastikan untuk selalu mengecek ulang kebenaran fakta, menjaga kerahasiaan data, dan menjadikannya teman belajar, bukan pengganti daya pikir mandiri.</p>
+        </article>
+
+        <aside>
+            <img src="web/kayyis.jpeg" alt="Foto penulis" class="foto-profil">
+            <h3>Tentang Penulis</h3>
+            <p>perkenalkan saya Kayyis Dzafaz Afnani,saya kelas 10 RPL 6 siswa dari SMK TELKOM MALANG.</p>
+        </aside>
+    </main>
+
+    <form id="formKontak" action="#" method="get">
+        <h2>Form Kontak</h2>
+
+        <div class="baris">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required minlength="3" maxlength="50">
+        </div>
+
+        <div class="baris">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="baris">
+            <label for="topik">Topik:</label>
+            <select id="topik" name="topik" required>
+                <option value="">-- Pilih --</option>
+                <option value="saran">Saran Artikel</option>
+                <option value="kritik">Kritik</option>
+                <option value="kerjasama">Kerja Sama</option>
+            </select>
+        </div>
+
+        <div class="baris">
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="4" required minlength="10" maxlength="200"></textarea>
+        </div>
+
+        <div class="baris">
+            <input type="checkbox" id="langganan" name="langganan">
+            <label for="langganan">Langganan artikel baru</label>
+        </div>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2026 Blog Teknologi Saya. Hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
